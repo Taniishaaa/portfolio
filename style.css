@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: black;
+    color: white;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0.5rem;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background: #000;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.hero-text {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.hero-image img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 8px;
+}
+
+#about, #skills, #contact, #experience {
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+#projects .project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+#projects .project img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+}
+
+#projects .project-info {
+    padding: 1rem;
+    background: #f4f4f4;
+    border-radius: 8px;
+    margin-top: -1rem;
+    width: 90%;
+    max-width: 380px;
+    color: #333;
+}
+
+#skills ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#skills ul li {
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    background: #686565;
+    border-radius: 8px;
+}
+
+#contact .contact-details {
+    margin-bottom: 1rem;
+}
+
+#contact .contact-details a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#contact .contact-details a:hover {
+    text-decoration: underline;
+}
+
+#contact .social-media-links {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+#contact .social-media-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+#experience .experience-item {
+    margin: 2rem 0;
+    background: #f4f4f4;
+    color: #333;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: left;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    background: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+@media (min-width: 768px) {
+    .hero-content {
+        flex-direction: row;
+    }
+
+    .hero-text {
+        text-align: left;
+        margin-bottom: 0;
+        flex: 1;
+        padding-right: 2rem;
+    }
+
+    .hero-image {
+        flex: 1;
+        text-align: center;
+    }
+
+    header nav ul {
+        justify-content: flex-end;
+    }
+}

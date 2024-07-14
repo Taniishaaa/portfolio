@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Tanisha Gupta</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Tanisha Gupta</h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="certificates.html">Certifications</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <hr>
+    <main>
+        <h2 class="fs-600"><center><br>PROJECTS</h2></center>
+        <div class="projects-container">
+            <div class="project-item">
+                <figure>
+                    <video controls>
+                        <source src="Media/Pixeo - Photo Posting webApp.mp4" type="video/mp4">
+                    </video>
+                    <figcaption>
+                        <h3>Pixeo</h3>
+                        <h5>Svelte, SvelteKit, Tailwind CSS</h5>
+                        <p>Developed a project named PIXEO - a sleek and user-friendly photo posting app, inspired by Instagram.</p>
+                        <p>PIXEO's features:</p>
+                        <ul>
+                            <li>Image Preview: Users can see a preview of their images before uploading.</li>
+                            <li>Creative Filters: Add a touch of creativity with built-in Grayscale and Sepia filters.</li>
+                        </ul>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="project-item">
+                <figure>
+                    <video controls>
+                        <source src="Media/Currency Converter.mp4" type="video/mp4">
+                    </video>
+                    <figcaption>
+                        <h3>Currency Converter</h3>
+                        <h5>HTML, CSS , JavaScript</h5>
+                        <p>This web app is designed to provide seamless and intuitive experience 
+                            for converting currencies on the go. It leverages real-time data 
+                            through API calls to ensure accuracy and up-to-date exchange rates.</p>
+                        
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="project-item">
+                <figure>
+                    <video controls>
+                        <source src="Media\car parking system.mp4" type="video/mp4">
+                    </video>
+                    <figcaption>
+                        <h3>Car Parking System</h3>
+                        <h5>Arduino , C++</h5>
+                        <p>Conceptualized and implemented a smart parking system to efficiently manage 
+                            car parking using Arduino microcontrollers. Utilized IR sensors 
+                            to detect the presence of vehicles and monitor available parking
+                             spaces in real-time. Programmed the Arduino using C++ to process sensor 
+                             data and control the system's operations.</p>
+                        
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+
+        <h2 class="fs-600"><center><br>PRACTICE PROJECTS</h2></center>
+        <div class="projects-container">
+            <div class="project-item">
+                <figure>
+                    <video controls>
+                        <source src="Media\Notes App - Svelte.mp4" type="video/mp4">
+                    </video>    
+                    <figcaption>
+                        <h3>Notes App</h3>
+                        <h5>Svelte , Tailwind CSS</h5>
+                        <p>Developed a Notes App that includes several features like :</p>
+                        <ul>
+                            <li>Save Notes: Easily add and keep track of your notes.</li>
+                            <li>Delete Notes: I implemented the ability to delete notes, 
+                                ensuring a clutter-free note-taking experience.</li>
+                            <li>Advanced Storage: Taking it a step further, 
+                                I used IndexedDB instead of Local Storage for storing notes, 
+                                providing a more robust and scalable solution for data management.</li>
+                        </ul>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="project-item">
+                <figure>
+                    <video controls>
+                        <source src="Media\Amazon Clone.mp4" type="video/mp4">
+                    </video>
+                    <figcaption>
+                        <h3>Amazon Clone</h3>
+                        <h5>HTML , CSS</h5>
+                        <p>Hand-coded the entire front-end using HTML for structure and CSS for styling, 
+                            ensuring a responsive and visually appealing layout. Created an intuitive 
+                            and user-friendly interface closely mirroring the original Amazon design.</p>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+
+    </main>
+    <hr>
+    <footer>
+        <p>&copy; 2024 Tanisha Gupta. All Rights Reserved.</p>
+    </footer>
+</body>
+
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    background-color: #282c34;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.project-item {
+    background-color: #d6cbcb;
+    color: black;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 300px;
+    margin: 20px;
+    text-align: left;
+}
+
+figure {
+    margin: 0;
+}
+
+video {
+    width: 100%;
+    border-radius: 10px;
+    border: 5px solid #000000;
+}
+
+figcaption {
+    margin-top: 10px;
+}
+
+figcaption h3 {
+    margin: 10px 0;
+}
+
+figcaption ul {
+    padding-left: 20px;
+}
+
+figcaption ul li {
+    list-style: disc;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #20232a;
+}
+
+@media (max-width: 600px) {
+    .projects-container {
+        flex-direction: column;
+    }
+}
+
+</style>
+</html>
